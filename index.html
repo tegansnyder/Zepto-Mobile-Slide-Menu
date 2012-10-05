@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]>    <html class="no-js iem7"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Zepto.js Mobile Sliding Drawer Menu</title>
+		
+		<!-- Uncomment this if you run this through Phonegap Build-->
+		<!--<script src="phonegap.js"></script>-->
+		
+        <meta name="description" content="">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+        <meta http-equiv="cleartype" content="on">
+		<meta name="apple-mobile-web-app-capable" content="yes"> 
+		<meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+
+        <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+        <!--
+        <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+        -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+		
+		<script src="js/vendor/zepto.min.js"></script>
+		<script src="js/touchwipe.min.js"></script>
+		<script src="js/helper.js"></script>
+		<script src="js/main.js"></script>
+
+    </head>
+    <body>
+			
+	
+		<div id="slidemenu" class="slidemenu">
+
+			<h3>MENU</h3>
+			
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Tegan Snyder</a></li>
+				<li><a href="#">Invite Friends</a></li>
+				<li><a href="#">Settings</a></li>
+				<li><a href="#">Help</a></li>
+				<li><a href="#">Activity</a></li>
+				<li><a href="#" rel="external">Invite Friends</a></li>
+				<li><a href="#">Settings</a></li>
+				<li><a href="#">Help</a></li>
+			</ul>
+			
+		</div>
+
+		
+		<div class="page">
+		
+			<header>
+			
+				<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAnCAYAAAB5XdqFAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAB50RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNS4xqx9I6wAAABZ0RVh0Q3JlYXRpb24gVGltZQAwOS8xMS8xMvmMvAsAAAJ/SURBVFiFzZixjhMxEIa/sX1HnoaeggYkepDoqBD9vQQdBaI9IURBeQKJggIhEBUVPR2vgXTn+SlsbzZZX5n1/tIom0RRvh3/M2Ov3b1/IQuJECIWImYRzDALjJTkIPH720uTRLIQCTER4jkhnhFCqsDjQeWZh09fCbBkZoSYSGc7UtoR0jkhRBgMihz3DPwDIJkFgiViPCemHTHdIcSzYoGRnMp4vgZVUAAzw0IixERMxQIWBoN6xszQdXmfgFo8hoVQ/BkTYXBG3QyTo/o+Td8YYAYGhpXrgTIVlqYEDjhoHpnpVkZJubBUJbmzCHMObmeAGktTEl56lhwpTzE6oxNHVSrpdaCk+hj04vm9k0O9effrVtC2rgnpyJ8tVlz6mRcPPjvwqOb+zCUsL394QsmX/9dYpoxKTvFpRiw9+vryx3rEc9DGUUkTCOk4Vl76LqgjaQY6eWGgR3vqeZRFewrba0+th+J5X1Cjt3jsi6mtfaJ6UtOrH3j0xbMHJ4d6++H7ErRxECto8ya5ztcMay+9Ou2wsTRQSczHKPjqVa9Ow28sTaWYWsNvzZ/9HV6+/7IG60KqNdOUmBp+2d6VarPtVT31WDp01ve06KOd8Sk2kFGO+6iXsYkLuerGWWCdHc2KknTkUdpkmmVUgZbSJ48fnRzq46evHVDvTaa8HKErrr06fXQBWgqpFdPsek3dunHeJ6sU0xSz9lQzenX1eSXaI85FRn3W8OsJVOajD6HT8Gm65RS6z+go9T3K3KO+vkd76h7ulIF9xW8zo4ul3yhoKyLPmWAZr7v7LTxxdj9o+BnpBvkN7gHLwrWdR+NN6e+fn1afk29aJm2eEYD/T7+uqvcP3tEAAAAASUVORK5CYII=" alt="menu" class="slidemenu_btn" data-slidemenu="#slidemenu" data-slideopen="false" id="menu">
+
+				<span>Slide Menu</span>
+				
+				<a href="#" class="btn-header">back</a>
+				
+			</header>
+			
+			<div class="content">
+			
+			
+			</div>
+		
+		</div><!--end outages-->
+		
+
+    </body>
+</html>
