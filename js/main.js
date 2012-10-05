@@ -6,6 +6,11 @@ Zepto(function($){
             $(e.target).trigger('tap');
         });
     }
+    
+    $('.slidemenu_btn').tap(function(event){
+		slidemenu();
+		return false;
+	});
 
 	$(document).touchwipe({
 		 wipeLeft: function() { slidemenu(); },
